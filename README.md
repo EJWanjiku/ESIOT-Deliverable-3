@@ -63,7 +63,7 @@ MQ-5  (Gas detection)    ──┘        │
 
 ### Wokwi Simulation
 
-> **Simulation Link:** [INSERT WOKWI PUBLIC LINK HERE]
+> **Simulation Link:** [![Wokwi Simulation](Deliverable%203%20Simulation%20-%20Wokwi.png)]
 
 The simulation replicates Architecture A using:
 - `wokwi-esp32-devkit-v1` — the ESP32 microcontroller
