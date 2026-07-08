@@ -297,7 +297,7 @@ Grafana Cloud was connected to InfluxDB as a data source and used to create a li
 
 ### Dashboard Link
 
-> **Public Dashboard:** [https://smallcat1191.grafana.net/d/esdpt55/deliverable-3-data-visualisation?orgId=1&from=now-24h&to=now&timezone=browser]
+> **Public Dashboard:** [https://smallcat1191.grafana.net/public-dashboards/a05bbc4549aa4ba2b00ce9c5645ce419]
 
 ### Visualisation 1 — Temperature Over Time
 
