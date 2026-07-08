@@ -283,10 +283,7 @@ InfluxDB Cloud was used as the time-series database to store all sensor readings
 ### Flux Query Used
 
 ```flux
-from(bucket: "sunflower_monitor")
-  |> range(start: -1h)
-  |> filter(fn: (r) => r._measurement == "sunflower_data")
-  |> filter(fn: (r) => r._field == "temperature")
+SELECT * FROM "sunflower_data"
 ```
 
 ---
@@ -402,15 +399,6 @@ Data is sent to InfluxDB every **10 seconds** and the LCD updates every **3 seco
 ## 7. Evidence of Group Work
 
 > [INSERT GROUP PHOTO HERE]
-
-| Task | Member |
-|---|---|
-| Wokwi simulation setup | |
-| InfluxDB cloud configuration | |
-| Grafana dashboard creation | |
-| Arduino code development | |
-| Markdown documentation | |
-| Circuit wiring | |
 
 ---
 
