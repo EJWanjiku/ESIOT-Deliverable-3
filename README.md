@@ -63,7 +63,7 @@ MQ-5  (Gas detection)    ──┘        │
 
 ### Wokwi Simulation
 
-> **Simulation Link:** [![Wokwi Simulation](Deliverable%203%20Simulation%20-%20Wokwi.png)]
+> **Simulation Link:** [https://wokwi.com/projects/468931232438993921]
 
 The simulation replicates Architecture A using:
 - `wokwi-esp32-devkit-v1` — the ESP32 microcontroller
@@ -74,7 +74,7 @@ The simulation replicates Architecture A using:
 
 **Screenshot of simulation running:**
 
-> [INSERT SCREENSHOT OF WOKWI SIMULATION HERE]
+![Wokwi Simulation](Deliverable%203%20Simulation%20-%20Wokwi.png)
 
 **Serial monitor output:**
 
@@ -276,7 +276,9 @@ InfluxDB Cloud was used as the time-series database to store all sensor readings
 
 ### InfluxDB Data Explorer Screenshot
 
-> [INSERT SCREENSHOT OF INFLUXDB DATA EXPLORER SHOWING INCOMING DATA]
+![InfluxDB Data 1](influxdb1.png)
+
+![InfluxDB Data 2](influxdb2.png)
 
 ### Flux Query Used
 
@@ -295,7 +297,7 @@ Grafana Cloud was connected to InfluxDB as a data source and used to create a li
 
 ### Dashboard Link
 
-> **Public Dashboard:** [INSERT GRAFANA PUBLIC LINK HERE]
+> **Public Dashboard:** [https://smallcat1191.grafana.net/d/esdpt55/deliverable-3-data-visualisation?orgId=1&from=now-24h&to=now&timezone=browser]
 
 ### Visualisation 1 — Temperature Over Time
 
@@ -312,7 +314,7 @@ from(bucket: "sunflower_monitor")
   |> filter(fn: (r) => r._field == "temperature")
 ```
 
-> [INSERT SCREENSHOT OF TEMPERATURE CHART]
+![Temperature Panel](Temp%20panel%20.png)
 
 ---
 
@@ -331,7 +333,7 @@ from(bucket: "sunflower_monitor")
   |> filter(fn: (r) => r._field == "humidity")
 ```
 
-> [INSERT SCREENSHOT OF HUMIDITY CHART]
+![Humidity Panel](Humidity%20panel.png)
 
 ---
 
@@ -350,7 +352,7 @@ from(bucket: "sunflower_monitor")
   |> filter(fn: (r) => r._field == "gas_detected")
 ```
 
-> [INSERT SCREENSHOT OF GAS DETECTION TIMELINE]
+![Gas Panel](Gas%20panel.png)
 
 ---
 
@@ -369,13 +371,17 @@ from(bucket: "sunflower_monitor")
   |> last()
 ```
 
-> [INSERT SCREENSHOT OF STAT PANELS]
+![Current Temperature](Current%20temp%20panel.png)
+
+![Current Humidity](Current%20humidity%20panel.png)
 
 ---
 
 ### Full Dashboard Screenshot
 
-> [INSERT FULL GRAFANA DASHBOARD SCREENSHOT]
+![Grafana Dashboard 1](Grafana%20Dash%201%20.png)
+
+![Grafana Dashboard 2](Grafana%20Dash%202.png)
 
 ---
 
