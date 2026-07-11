@@ -398,7 +398,7 @@ Data is sent to InfluxDB every **10 seconds** and the LCD updates every **3 seco
 
 ## 7. Evidence of Group Work
 
-> [INSERT GROUP PHOTO HERE]
+![Group Meeting](groupmeeting-ss.png)
 
 ---
 
